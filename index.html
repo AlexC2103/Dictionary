@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dictionary</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js"></script>
+</head>
+
+<body align="center">
+  <br>
+  <form onsubmit="return false">
+    <input type="text" name="inputWord" id="wordToCheck" placeholder="Type a word you want to search...">
+    <button onclick="checkWord()">Search</button>
+  </form>
+  <form onsubmit="return false">
+    <input type="text" name="wordToAdd" id="wordToAdd" placeholder="Type the word you want to add...">
+    <button id="searchAdd" onclick="addWord()">Add</button>
+  </form>
+  <p id="wordStatus">Word status will be shown here!</p>
+  <div>
+    <button id="clearList" onclick="clearList()">Clear List</button>
+  </div>
+</body>
+
+</html>
